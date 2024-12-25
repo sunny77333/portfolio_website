@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.home {
+  background: linear-gradient(to bottom, #222, #444);
+}
+
+.services {
+  background: linear-gradient(to bottom, #444, #666);
+}
+
+.portfolio {
+  background: linear-gradient(to bottom, #666, #888);
+}
+
+.contact {
+  background: linear-gradient(to bottom, #888, #aaa);
+}

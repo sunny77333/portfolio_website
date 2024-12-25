@@ -1,0 +1,67 @@
+/* General Section Styling */
+.services {
+    height: 100vh;
+    background: #222; /* Dark background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cards Container */
+  .services-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #333; /* Darker card background */
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #76c043; /* Green accent */
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
